@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin-top: 95px;
+}
+
+nav {
+  background-image: linear-gradient(to top right, #4e54c8, #4e21ba);
+}
+.active {
+  font-weight: bold;
+}
+nav .nav-link {
+  color: white !important;
+  transition: 0.4s;
+}
+nav .nav-link:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  color: #4e54c8;
+}
+
+.card {
+  box-shadow: 0px 11px 28px -7px rgb(213, 212, 212);
+  /* border: 1px solid #eee; */
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  /* outline: 1px solid #fe696a; */
+  box-shadow: 0px 5px 28px -7px #fe696a;
+  /* box-shadow: 0px 11px 28px -7px rgb(213, 212, 212); */
+}
+
+.card a {
+  color: #000;
+  transition: 0.2s;
+}
+
+.card a:hover {
+  color: #fe696a;
+}
+
+.tombol1 {
+  background: #4e54c8;
+  color: #fff;
+  border: 1px solid #4e54c8;
+  box-shadow: 4px 10px 12px -8px rgb(55, 55, 249);
+  transition: 0.5s;
+}
+
+.tombol1:hover {
+  background: #fe696a;
+  color: #fff;
+  border: 1px solid #fe696a;
+  box-shadow: 4px 10px 12px -8px rgb(207, 57, 57);
+}
+
+.tombol2 {
+  transition: 0.5s;
+  background-color: #4e54c8;
+  box-shadow: 4px 10px 12px -8px rgb(55, 55, 249);
+  color: #fff;
+}
+
+.tombol2:hover {
+  background: #fe696a;
+  color: #fff;
+  box-shadow: 4px 10px 12px -8px rgb(207, 57, 57);
+  border: none;
+  transform: scale(1.1);
+}
