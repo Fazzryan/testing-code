@@ -6,16 +6,22 @@ body {
 }
 
 nav {
-  background-image: linear-gradient(to top right, #4e54c8, #4e21ba);
+  background-color: #fff;
+  transition: 0.4s;
+}
+.add-shadow {
+  box-shadow: 0 18px 18px -16px rgb(213, 212, 212);
 }
 .active {
   font-weight: bold;
+  color: #fe696a !important;
 }
 nav .nav-link {
-  color: white !important;
+  /* color: #000 !important; */
   transition: 0.4s;
 }
 nav .nav-link:hover {
+  color: #fe696a !important;
   transform: scale(1.1);
 }
 
@@ -54,7 +60,7 @@ span {
   color: #fff;
   border: 1px solid #4e54c8;
   box-shadow: 4px 10px 12px -8px rgb(55, 55, 249);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .tombol1:hover {
@@ -65,16 +71,19 @@ span {
 }
 
 .tombol2 {
-  transition: 0.5s;
+  transition: 0.4s;
   background-color: #4e54c8;
   box-shadow: 4px 10px 12px -8px rgb(55, 55, 249);
   color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .tombol2:hover {
   background: #fe696a;
   color: #fff;
   box-shadow: 4px 10px 12px -8px rgb(207, 57, 57);
-  border: none;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
